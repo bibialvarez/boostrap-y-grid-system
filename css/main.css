@@ -1,8 +1,10 @@
-*{
+/**{
 	outline: 1px solid red;
-}
+}*/
 body{
 	margin: 20px;
+	font-family: Verdana, serif;
+	font-size: 13px;
 }
 ul{
 	list-style-type: none;
