@@ -1,5 +1,5 @@
 *{
-		outline: 1px solid red;
+	outline: 1px solid red;
 }
 body{
 	margin: 20px;
@@ -13,13 +13,19 @@ a{
 header h1{
 	display: inline-block;
 }
-
+.space{
+	margin-left: 25px;
+}
 .rss,.inline{
 	display: inline-block;
 	background: white;
-}
-.rss,.inline{
 	float: right;
+}
+.rss{
+	margin: 25px;
+}
+.inline{
+	margin: 22px;
 }
 header div{
 	margin-bottom: 30px;
@@ -44,7 +50,7 @@ header ul li a {
 	margin-left: -50px;
 	position: absolute;
 }
-h4,.col-sm-2 h5{
+.text-white{
 	color: white;
 }
 h3{
@@ -53,6 +59,9 @@ h3{
 hr{
 	color: black;
 }
+span{
+	margin-right: 10px;
+}
 .vermas{
 	display: inline;
 	margin-left: 50px;
@@ -60,8 +69,14 @@ hr{
 .col-sm-2 h5{
 	background: black;
 }
-.bg999, header div,.col-sm-4 .col-sm-4,.video{
-	background: #999;
+header div,.video{
+	background: #d4d4d4;
+}
+.bg999,.col-sm-4 .col-sm-4{
+	background: #919191;
+}
+.bg777{
+	background: #ebebeb;
 }
 .art{
 	height: 18px;
@@ -79,11 +94,18 @@ img,.videito{
 }
 .martop{
 	margin-top: 20px;
-	background: #999;
+	background: #919191;
 }
 .padtop{
 	padding-top: 10px;
 }
+.fat{
+	height: 10px;
+	background: #424242;
+}
 .footer{
 	margin-top: 30px;
+}
+.footer div li,.col-sm-3 .col-sm-12 li{
+	font-weight: bold;
 }
