@@ -1,0 +1,89 @@
+*{
+		outline: 1px solid red;
+}
+body{
+	margin: 20px;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	color: black;
+}
+header h1{
+	display: inline-block;
+}
+
+.rss,.inline{
+	display: inline-block;
+	background: white;
+}
+.rss,.inline{
+	float: right;
+}
+header div{
+	margin-bottom: 30px;
+}
+header div ul{
+	width: 100%;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+}
+header li{
+	float: left;
+	width: 15%;
+	height: 50px;
+	margin-top: 50px;
+}
+header li:first-child{
+	background: white;
+}
+header ul li a {
+	margin-top: 20px;
+	margin-left: -50px;
+	position: absolute;
+}
+h4,.col-sm-2 h5{
+	color: white;
+}
+h3{
+	display: block;
+}
+hr{
+	color: black;
+}
+.vermas{
+	display: inline;
+	margin-left: 50px;
+}
+.col-sm-2 h5{
+	background: black;
+}
+.bg999, header div,.col-sm-4 .col-sm-4,.video{
+	background: #999;
+}
+.art{
+	height: 18px;
+	margin-top: 10px;
+}
+img,.videito{
+	height: 200px;
+	width: 100%;
+}
+.right{
+	float: right;
+}
+.video{
+	margin-bottom: 20px;
+}
+.martop{
+	margin-top: 20px;
+	background: #999;
+}
+.padtop{
+	padding-top: 10px;
+}
+.footer{
+	margin-top: 30px;
+}
